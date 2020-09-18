@@ -1,0 +1,40 @@
+.footer-nav{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+}
+.nav-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.nav-container .nav-item{
+    flex: 1;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    /*侧轴居中对齐*/
+    align-items: center;
+    font-size: 15px;
+    color: gray;
+    border: none;
+    outline: none;
+}
+.nav-item-link{
+    color: gray;
+}
+.nav-item-content{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    /*侧轴居中对齐*/
+    align-items: center;
+}
+.nav-item-content>span{
+    flex: 1;
+}
+.nav-item-content>span:last-child{
+    font-size: 10px;
+}

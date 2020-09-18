@@ -1,0 +1,16 @@
+.mine-header{
+    background-color: #eee;
+    height: 80px;
+}
+.mine-header-logo{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(19, 16, 16);
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.mine-header-logo>img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
